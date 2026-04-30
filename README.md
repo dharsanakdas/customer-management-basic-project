@@ -16,4 +16,22 @@ Backend (Node JS + Express):
     run -> npm install
     run -> npm start
 
+
+APP URL https://customer-management-basic-project-1.onrender.com/
+
+Features >>>>
+
+    add new customer
+    list all customers with delete button in the table
+    delete customer
+
+API end points
+
+    
+    1. POST /customers – Add a new customer        https://customer-management-basic-project.onrender.com/customers
+    
+    2. GET /customers – Get all customers          https://customer-management-basic-project.onrender.com/customers
+    3. DELETE /customers/:id – Delete a customer   https://customer-management-basic-project.onrender.com/customers/${id}
+
+
     
