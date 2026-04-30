@@ -69,7 +69,7 @@ function App() {
               <th>#</th>
               <th>Name</th>
               <th>Email</th>
-              <th>Phone</th>
+              <th>Phone Number</th>
               <th>Action</th>
             </tr>
           </thead>
@@ -115,7 +115,7 @@ function App() {
 
               <input
                 name="phone"
-                placeholder="Phone"
+                placeholder="Phone Number"
                 value={form.phone}
                 onChange={handleChange}
               />
