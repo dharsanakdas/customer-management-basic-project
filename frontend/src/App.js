@@ -18,7 +18,7 @@ function App() {
     console.log(form);
     //connect to backend API
     try {
-      const res = await axios.post("http://localhost:5000/customers", form);
+      const res = await axios.post("https://customer-management-basic-project.onrender.com/customers", form);
 
       console.log("Response from server:", res); // Debugging line
       setCustomers([...customers, res.data]);
@@ -34,7 +34,7 @@ function App() {
   React.useEffect(() => {
     //error handling
     try {
-      axios.get("http://localhost:5000/customers").then((res) => {
+      axios.get("https://customer-management-basic-project.onrender.com/customers").then((res) => {
         setCustomers(res.data);
       });
     } catch (error) {
@@ -44,7 +44,7 @@ function App() {
 
   const handleDelete = (id) => {
     try {
-      axios.delete(`http://localhost:5000/customers/${id}`).then(() => {
+      axios.delete(`https://customer-management-basic-project.onrender.com/customers/${id}`).then(() => {
         setCustomers(customers.filter((customer) => customer.id !== id));
       });
     } catch (error) {
