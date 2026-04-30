@@ -4,6 +4,9 @@ basic project created using react, node.js, express
 
 The project is a basic full-stack web application that allows users to add, view, and delete customers.
 
+Github -> https://github.com/dharsanakdas/customer-management-basic-project
+there are two folders frontend and backend
+
 Frontend (React JS):
 
     run -> npm install
@@ -32,6 +35,8 @@ API end points
     
     2. GET /customers – Get all customers          https://customer-management-basic-project.onrender.com/customers
     3. DELETE /customers/:id – Delete a customer   https://customer-management-basic-project.onrender.com/customers/${id}
+
+
 
 
     
